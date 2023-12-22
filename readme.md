@@ -11,7 +11,7 @@ these actions.
 # Usage 
 If you would like to run this application yourself and you have no knowledge on how to do so then you can follow this guide:
 
-1. Download the Palindrom Checker Folder
+1. Download the Roman Numeral Converter Folder
 2. Open this folder is your desired IDE/Code editor
 3. You can run this via CMD using the command "start (filename_or_URL)" or if that doesn't work use "cmd /c start (filename_or_URL)"
 4. Enjoy!
