@@ -1,0 +1,72 @@
+body {
+  background-color: rgb(27,27,50);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.logo {
+  max-width: 250px;
+}
+
+.title {
+  text-align: center;
+  color: white;
+  max-width: 300px;
+  font-family: monospace;
+  font-size: 40px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 700px;
+  border: 3px solid white;
+  background-color: rgb(59, 59, 79);
+  padding: 20px 50px;
+}
+
+.number-label {
+  font-size: 28px;
+  color: white;
+  font-family: monospace;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.number {
+  width: 350px;
+  height: 45px;
+  background-color: rgb(10, 10, 35);
+  border: 1px solid white;
+  font-family: monospace;
+  font-size: 24px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.convert-btn {
+  padding: 10px;
+  background: linear-gradient(#fecc4c, #ffac33);
+  font-size: 24px;
+  border: 2px solid #feac32;
+  cursor: pointer;
+}
+
+.output {
+  display: none;
+  flex-direction: column;
+  text-align: center;
+  width: 350px;
+  border: 3px solid white;
+  background-color: rgb(59, 59, 79);
+  padding: 20px 50px;
+  margin-top: 20px;
+}
